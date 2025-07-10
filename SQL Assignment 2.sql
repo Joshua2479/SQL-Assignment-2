@@ -64,6 +64,14 @@ INSERT INTO Orders (customer_id, order_date, total_amount) VALUES
 (9, '2025-07-05', 25.00),
 (10, '2025-07-05', 50.00);
 
+INSERT INTO Order_Items (order_id, product_id, quantity, price) VALUES
+(1, 1, 1, 900.00),
+(2, 2, 2, 600.00),
+(3, 3, 1, 300.00),
+(4, 4, 3, 50.00),
+(5, 5, 5, 25.00);
+
+
 
 
 
